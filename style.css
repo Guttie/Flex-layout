@@ -4,13 +4,10 @@
   box-sizing: border-box;
 }
 header {
-  width: 100%;
-  height: auto;
   padding: 30px 20px;
   background-color: purple;
   display: flex;
-  justify-content: end;
-  align-items: center;
+  justify-content: flex-end;
 }
 header > div {
   flex-basis: 140px;
@@ -23,11 +20,8 @@ header > div:first-child {
 }
 main {
   background-color: black;
-}
-.main-box {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
 }
 .box-left {
   width: 300px;
@@ -39,6 +33,7 @@ main {
   background-color: green;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-grow: 1;
 }
 .box-small {
@@ -48,7 +43,6 @@ main {
   background-color: yellow;
 }
 footer {
-  width: 100%;
   padding: 20px;
   background-color: teal;
   display: flex;
